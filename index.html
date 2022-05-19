@@ -1,104 +1,149 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <title>GameMates</title>
-        <link rel="stylesheet" href="css/styles.css" />
-    </head>
-    <body>
-        <section id="title">
-            <!-- Nav Bar  -->
 
-            <!-- Title -->
-            <div>
-                <h1>Become mates by gaming with people nearby.</h1>
-                <button type="button">Download</button>
-                <button type="button">Download</button>
-            </div>
-            <div>
-                <img src="img/mobile-game.png" alt="orange-game-phone" />
-            </div>
-        </section>
-        <!-- Features -->
-        <section id="features">
-            <h3>Meet new people.</h3>
-            <p>Meet people locally with the same interests as you.</p>
+<head>
+  <meta charset="utf-8" />
+  <title>GameMates</title>
 
-            <h3>Heat Maps.</h3>
-            <p>See what people are playing most in your area.</p>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
 
-            <h3>You Choose.</h3>
-            <p>You can choose when or if you meet up with someone.</p>
-        </section>
-        <!-- Testimonials -->
-        <section id="testimonials">
-            <h2>
-                I love playing games with friends but they are sometimes busy
-                when I want to play. I have never been a fan of playing world
-                wide with strangers. This allows me that happy both.
-            </h2>
-            <img src="img/gamerone.png" alt="man-profile" />
-            <em>Jake, Texas</em>
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
 
-            <h2>
-                I have tried other apps in the past but its always hard to weed
-                out the weirdos. This app has so many people in so many areas
-                playing a wide varity of games. So you will find your group.
-            </h2>
-            <img src="img/girlprofile.png" alt="girl=profile" />
-            <em>Mifa, Zoras Domain</em>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
 
-            <h2>
-                I was able to find like minded indivalidules and we ended up
-                having events. I appreciate no matter where I go I can find
-                people playing the games that I love to play.
-                <img src="img/testamphoto.png" alt="guy-profile" />
-                <em>Harry, London</em>
-            </h2>
-        </section>
-        <!-- Press -->
-        <section id="press">
-            <img src="img/nintendologo.png" alt="Nintendo-Logo" />
-            <img src="img/playstationlogo.png" alt="palystation-logo" />
-            <img src="img/xboxlogo.png" alt="xbox-logo" />
-        </section>
-        <!-- Pricing -->
-        <section id="pricing">
-            <h2>Plans for Everyone</h2>
-            <p>Basic to extended packages to meet everyone's needs.</p>
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</head>
 
-            <h3>Basic</h3>
-            <h2>Free</h2>
-            <p>Local Map Coverage</p>
-            <p>10 Messages A Day</p>
-            <p>Unlimited App Usage</p>
-            <button type="button">Sign Up</button>
+<body>
+  <section id="title">
+    <!-- Nav Bar  -->
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">GameMate</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data- target="#navbarTogglerDemo01">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="narbar-nav list-unstyled ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="">Contact</a>
+              <a class="nav-link" href="">Pricing</a>
+              <a class="nav-link" href="">Download</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-            <h3>Premium</h3>
-            <h2>$5.99 Monthly</h2>
-            <p>Map Coverage through USA</p>
-            <p>Unlimited Messages</p>
-            <p>Unlimited App Usage</p>
-            <button type="button">Sign Up</button>
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>Become mates by gaming with people nearby hi.</h1>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i
+              class="fab fa-apple"></i>Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><i
+              class="fab fa-google-play"></i>Download</button>
+        </div>
+        <div class="col-lg-6">
+          <img class="title-image" src="img/mobile-game.png" alt="orange-game-phone" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Features -->
+  <section id="features">
+    <h3>Meet new people.</h3>
+    <p>Meet people locally with the same interests as you.</p>
 
-            <h3>Extended</h3>
-            <h2>$10.99 Monthly</h2>
-            <p>World Wide Map Coverage</p>
-            <p>Unlimited Messages</p>
-            <p>Unlimited App Usage</p>
-            <p>Access organized GameMate meetups.</p>
-            <button type="button">Sign Up</button>
-        </section>
+    <h3>Heat Maps.</h3>
+    <p>See what people are playing most in your area.</p>
 
-        <!-- Call to Action -->
-        <section>
-            <h3>Start making mates today.</h3>
-            <button type="button">Download</button>
-            <button type="button">Download</button>
-        </section>
-        <!-- Footer -->
-        <footer id="footer">
-            <p>©Copyright 2022 GameMate</p>
-        </footer>
-    </body>
+    <h3>You Choose.</h3>
+    <p>You can choose when or if you meet up with someone.</p>
+  </section>
+  <!-- Testimonials -->
+  <section id="testimonials">
+    <h2>
+      I love playing games with friends but they are sometimes busy
+      when I want to play. I have never been a fan of playing world
+      wide with strangers. This allows me that happy both.
+    </h2>
+    <img src="img/gamerone.png" alt="man-profile" />
+    <em>Jake, Texas</em>
+
+    <h2>
+      I have tried other apps in the past but its always hard to weed
+      out the weirdos. This app has so many people in so many areas
+      playing a wide varity of games. So you will find your group.
+    </h2>
+    <img src="img/girlprofile.png" alt="girl=profile" />
+    <em>Mifa, Zoras Domain</em>
+
+    <h2>
+      I was able to find like minded indivalidules and we ended up
+      having events. I appreciate no matter where I go I can find
+      people playing the games that I love to play.</h2>
+    <img src="img/testamphoto.png" alt="guy-profile" />
+    <em>Harry, London</em>
+  </section>
+  <!-- Press -->
+  <section id="press">
+    <img src="img/nintendologo.png" alt="Nintendo-Logo" />
+    <img src="img/playstationlogo.png" alt="palystation-logo" />
+    <img src="img/xboxlogo.png" alt="xbox-logo" />
+  </section>
+  <!-- Pricing -->
+  <section id="pricing">
+    <h2>Plans for Everyone</h2>
+    <p>Basic to extended packages to meet everyone's needs.</p>
+
+    <h3>Basic</h3>
+    <h2>Free</h2>
+    <p>Local Map Coverage</p>
+    <p>10 Messages A Day</p>
+    <p>Unlimited App Usage</p>
+    <button type="button">Sign Up</button>
+
+    <h3>Premium</h3>
+    <h2>$5.99 Monthly</h2>
+    <p>Map Coverage through USA</p>
+    <p>Unlimited Messages</p>
+    <p>Unlimited App Usage</p>
+    <button type="button">Sign Up</button>
+
+    <h3>Extended</h3>
+    <h2>$10.99 Monthly</h2>
+    <p>World Wide Map Coverage</p>
+    <p>Unlimited Messages</p>
+    <p>Unlimited App Usage</p>
+    <p>Access organized GameMate meetups.</p>
+    <button type="button">Sign Up</button>
+  </section>
+
+  <!-- Call to Action -->
+  <section>
+    <h3>Start making mates today.</h3>
+    <button type="button">Download</button>
+    <button type="button">Download</button>
+  </section>
+  <!-- Footer -->
+  <footer id="footer">
+    <p>©Copyright 2022 GameMate</p>
+  </footer>
+</body>
+
 </html>
