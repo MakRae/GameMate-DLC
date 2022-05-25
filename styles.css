@@ -7,6 +7,15 @@ h1{
     font-size: 3rem;
     line-height: 1.5;
 }
+
+h3{
+    font-family: montserrat-bold;
+}
+
+p{
+    color: #8f8f8f;
+}
+
 .container-fluid{
     padding: 3% 15%;
 }
@@ -40,4 +49,23 @@ body{
 
 .title-image{
     transform: rotate(25deg);
+}
+
+/* Features Section */
+#features {
+    padding: 7% 15%
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.features-fa{
+    color: orangered;
+    margin-bottom: 1rem;
+}
+
+.features-fa:hover {
+    color:orange;
 }
