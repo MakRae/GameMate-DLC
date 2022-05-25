@@ -100,3 +100,12 @@ body{
     width: 15%;
     margin: 10px 90px 90px;
 }
+/* pricing */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 3%;
+}
