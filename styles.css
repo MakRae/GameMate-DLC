@@ -8,6 +8,12 @@ h1{
     line-height: 1.5;
 }
 
+h2{
+    font-family: montserrat-bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 h3{
     font-family: montserrat-bold;
 }
@@ -68,4 +74,29 @@ body{
 
 .features-fa:hover {
     color:orange;
+}
+
+/* testimonial section */
+
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #FFCD38;
+}
+
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #FFCD38;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
 }
